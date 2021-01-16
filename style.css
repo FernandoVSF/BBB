@@ -1,0 +1,14 @@
+body {
+
+    color: rgb(2, 77, 2);
+    background-color: rgb(225, 247, 239);
+  }
+
+
+.jumbotron {
+    background-image: url("bio.png");
+    background-size: 100% 100%;
+    text-align: center;
+    color: #f7f7f7;
+}
+
