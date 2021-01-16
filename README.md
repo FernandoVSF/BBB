@@ -9,44 +9,7 @@ The following outputs will be produced:
 - Create a Bubble Chart
 - Create a Gauge Chart
 - Customize the Dashboard
-
-- Filter UFO sightings on multiple criteria
-- A written report on the UFO analysis
   
 ## Resources
-- Data Source: data JavaScripy file
-- Software: JavaScript, HTML, Bootstrap, CSS, VSCode
-
-## Results
-This page provides fully functional filters, using multiple criteria, that allows user's interaction as shown in the example below:
-
-  - Initial Page
-  
-![initial](/initial.png)
-
-   - Filtering by Shape = light
-  
-![f1](/f1_shape.png)
-  
-   - Adding filter by State = ca
-  
-![f2](/f2_state.png)
-
-   - Adding filter by City = el cajon
-  
-![f3](/f3_city.png)
-
-   - Adding filter by Date = 1/1/2010
-  
-![f4](/f4_date.png)
- 
-## Summary
-
-One drawback of this design is that it requires the user to scroll over the whole list to select the input for the search criteria.  Another one is not being possible to reset filters (although we can select a new criteria for the filter).
-
-As a recomendation for further dvelopments, I suggest the following:
-
-  - Implementing combo boxes in the input fields, to show the possible selections and avoiding typos;
-  
-  - Implementing an option to reset filters, by "showing all" in the combo box suggested above.
-  
+- Data Source: Samples JSON file
+- Software: Plotly, JavaScript, HTML, Bootstrap, CSS, VSCode
